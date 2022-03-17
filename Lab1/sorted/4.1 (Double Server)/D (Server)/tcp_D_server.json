@@ -1177,14 +1177,3 @@
 		"receiver_tcp_congestion":	"cubic"
 	}
 }
-{
-	"start":	{
-		"connected":	[],
-		"version":	"iperf 3.5",
-		"system_info":	"Linux linux-oswv 4.12.14-lp151.28.91-default #1 SMP Tue Jan 12 23:05:46 UTC 2021 (e284d31) x86_64"
-	},
-	"intervals":	[],
-	"end":	{
-	},
-	"error":	"interrupt - the server has terminated"
-}
