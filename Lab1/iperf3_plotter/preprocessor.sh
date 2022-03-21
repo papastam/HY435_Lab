@@ -55,7 +55,7 @@ cd $curr
 
 for file in $3/results/*.dat; do
         if [ "$2" = "TCP" ]; then
-	        awk -F, '{print ($1,int($2),int($3),($5/1024)/1024,$6/1024/1024,$7,$8,$9,$10,$11,$12)}' $file | sort -n -k 2 > tmp
+	        awk -F, '{print ($1,int($2),int($3),($5/1024)/1024,$6/1024,$7,$8,$9,$10,$11,$12)}' $file | sort -n -k 2 > tmp
         elif [ "$2" = "UDP" ]; then
 	        awk -F, '{print ($1,int($2),int($3),($5/1024)/1024,$6/1024,$7,$8,$9,$10)}' $file | sort -n -k 2 > tmp
         fi
