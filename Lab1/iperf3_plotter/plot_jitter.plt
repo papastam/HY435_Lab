@@ -9,7 +9,7 @@ set xlabel "Time (sec)"
 
 #set autoscale
 
-set ylabel "Jitter (seconds)"
+set ylabel "Jitter (ms)"
 #set format y "%s"
 set yrange [0:*]; #set ytics(0,20,40,60,80,100,120,140,160,180,200,220,240,260,280,300)
 
