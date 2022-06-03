@@ -1,0 +1,4 @@
+Removed R2.eth2 (subnet overlaping?)
+
+connectivity issues PC1->R3
+	>>		>>		PC2->PC1
