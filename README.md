@@ -5,7 +5,7 @@ This repo contains our work during the Labs of the [HY435](https://www.csd.uoc.g
 During the first lab we measured the throughput between hosts and servers (with the iperf3 tool). We ran multiple scenarios wich can be found in the [assignment PDF](https://github.com/papastam/HY435_Lab/blob/master/Lab1/assignment1.pdf). We plotted the results and reported them in the [Lab1 report](https://github.com/papastam/HY435_Lab/blob/master/Lab1/HY435_Lab1_Report.pdf).
 
 # Lab 2
-In this lab we implemented the iperf3 tool in C copying the original iperf3 tool functionality. The code can be found inside the `src` directory. To compile the iperf tool run `make` in the `./Lab2` direcory.
+In this lab we implemented the iperf3 tool in C copying the original iperf3 tool functionality. The code can be found inside the `./src` directory. To compile the iperf tool run `make` in the `./Lab2` direcory.
 The executable syntax is ```./mini_iperf <options> ```
 
 # Lab 3
